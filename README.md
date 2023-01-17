@@ -8,7 +8,9 @@ Kelas : TI.22.A3
 
 
 # Pertemuan 15
-![image](https://user-images.githubusercontent.com/93815689/212864898-21491766-d8f6-4f81-81c5-cf40e429abcc.png)
+
+![IMG-20230117-WA0027](https://user-images.githubusercontent.com/115516607/212916294-63e43d14-62c2-4bae-ae35-f8103c88a9a7.jpg)
+
 ### Penjelasan
 !pip install pandas digunakan untuk menginstall package pandas di python. Package pandas digunakan untuk memanipulasi data dalam bentuk tabel (dataframe) dan digunakan
 untuk data analysis. Fungsi dari package pandas sangat luas, seperti melakukan operasi pada data, mengimport dan mengeksport data dari berbagai format, dan lainnya.
