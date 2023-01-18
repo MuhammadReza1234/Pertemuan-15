@@ -47,3 +47,56 @@ Setelah itu, kodingan menggunakan library pandas untuk membuat dataframe dari li
 ## OUTPUT 
 
 ![image](https://user-images.githubusercontent.com/93815689/212865172-ae5aa214-a1f6-4380-b510-ced94bbbfe97.png)
+
+### Challenge 2
+
+Ambil contoh web marketplace Ebay lalu salin link ke variable URL 
+
+```
+URL = "https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=laptop&_sacat=0"
+page = req.get(URL)
+soup = bs(page.content, 'html.parser')
+```
+
+Soup akan menganalisis konten nya dengan html 
+
+---
+
+Gunakan soup untuk mencari item produknya 
+
+    produk = soup.find_all('li', attrs={'class': 's-item'})
+
+buat list nya dan tambahkan list nya 
+
+```
+nama_produk = []
+harga_produk = []
+for item in produk:
+  nama = item.find('div', attrs={'class': 's-item__title'}).text
+  harga = item.find('span', attrs={'class': 's-item__price'}).text
+  nama_produk.append(nama)
+  harga_produk.append(harga)
+```
+---
+
+buat dataframe untuk list menggunakan panda
+
+```
+df = pd.DataFrame({'Barang': nama_produk, 'Harga': harga_produk})
+
+print(df)
+```
+
+## Output
+
+![img](Img/IMG1.png)
+
+
+
+
+
+
+
+
+
+
