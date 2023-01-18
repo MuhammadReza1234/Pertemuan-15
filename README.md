@@ -20,7 +20,7 @@ Kelas : TI.22.A3
 
 Web scraping pada website https://glints.com/id/lowongan-kerja
 
-- **Penjelasan**
+### **Penjelasan**
 
 ![IMG-20230117-WA0027](https://user-images.githubusercontent.com/115516607/212916294-63e43d14-62c2-4bae-ae35-f8103c88a9a7.jpg)
 
@@ -36,7 +36,7 @@ import pandas as pd digunakan untuk mengimport library pandas dan menyebutnya se
 
 from bs4 import BeautifulSoup digunakan untuk mengimport class BeautifulSoup dari package BeautifulSoup4. Class BeautifulSoup digunakan untuk mengelola dan mengolah data dari HTML atau XML.
 
-- **Penjelasan**
+### **Penjelasan**
 
 ![image](https://user-images.githubusercontent.com/93815689/212857324-be077dbf-4f0f-49e5-80de-3f49be11d47b.png)
 
