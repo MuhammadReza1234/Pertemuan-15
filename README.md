@@ -16,7 +16,7 @@ Kelas : TI.22.A3
 
 ## Jawaban
 
-### Challenge 1
+## Challenge 1
 
 Web scraping pada website https://glints.com/id/lowongan-kerja
 
@@ -44,11 +44,11 @@ Selanjutnya, kodingan mencari semua elemen HTML dengan atribut 'div' dan 'id' ya
 
 Setelah itu, kodingan menggunakan library pandas untuk membuat dataframe dari list yang didapat dan menyimpannya dalam variabel 'df'. Kemudian kodingan mencetak dataframe tersebut, sehingga kita dapat melihat informasi lowongan kerja yang diambil dari situs web Glints.
 
-## OUTPUT 
+### OUTPUT 
 
 ![image](https://user-images.githubusercontent.com/93815689/212865172-ae5aa214-a1f6-4380-b510-ced94bbbfe97.png)
 
-### Challenge 2
+## Challenge 2
 
 Ambil contoh web marketplace Ebay lalu salin link ke variable URL 
 
@@ -87,7 +87,7 @@ df = pd.DataFrame({'Barang': nama_produk, 'Harga': harga_produk})
 print(df)
 ```
 
-## Output
+### Output
 
 ![img](Img/IMG1.png)
 
