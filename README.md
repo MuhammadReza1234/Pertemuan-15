@@ -22,7 +22,8 @@ Web scraping pada website https://glints.com/id/lowongan-kerja
 
 ![IMG-20230117-WA0027](https://user-images.githubusercontent.com/115516607/212916294-63e43d14-62c2-4bae-ae35-f8103c88a9a7.jpg)
 
-### Penjelasan
+**Penjelasan**
+
 !pip install pandas digunakan untuk menginstall package pandas di python. Package pandas digunakan untuk memanipulasi data dalam bentuk tabel (dataframe) dan digunakan
 untuk data analysis. Fungsi dari package pandas sangat luas, seperti melakukan operasi pada data, mengimport dan mengeksport data dari berbagai format, dan lainnya.
 !pip install requests digunakan untuk menginstall package requests di python. Package requests digunakan untuk melakukan HTTP request dari python.
@@ -37,7 +38,8 @@ from bs4 import BeautifulSoup digunakan untuk mengimport class BeautifulSoup dar
 
 ![image](https://user-images.githubusercontent.com/93815689/212857324-be077dbf-4f0f-49e5-80de-3f49be11d47b.png)
 
-### Penjelasan
+**Penjelasan**
+
 mengambil data lowongan kerja dari situs web Glints. Dengan menggunakan library Python 'requests', kodingan mengirim permintaan GET ke URL "https://glints.com/id/lowongan-kerja" yang merupakan halaman web yang berisi informasi lowongan kerja. Kemudian, dengan menggunakan library 'BeautifulSoup', kodingan menganalisis konten halaman web yang didapat dari permintaan GET tersebut dengan menggunakan parser HTML.
 
 Selanjutnya, kodingan mencari semua elemen HTML dengan atribut 'div' dan 'id' yang sesuai, yaitu '__next'. Kemudian, dari elemen-elemen tersebut, kodingan mengekstrak informasi pekerjaan, lokasi, dan nama perusahaan dengan mencari elemen yang memiliki atribut 'class' yang sesuai. Informasi yang diambil kemudian disimpan dalam sebuah list yang sesuai.
