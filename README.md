@@ -91,7 +91,7 @@ print(df)
 
 ![image](https://user-images.githubusercontent.com/115516607/213097768-3e759736-6ffd-4e17-aba0-4c6c2393ccc0.png)
 
-
+# TERIMAKASIH
 
 
 
