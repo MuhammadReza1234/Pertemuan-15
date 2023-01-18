@@ -89,7 +89,7 @@ print(df)
 
 ### Output
 
-!(https://user-images.githubusercontent.com/115516607/213096952-681a4e9d-0639-4cde-a0a7-48545ccd14ea.png)
+![image1] (https://user-images.githubusercontent.com/115516607/213096952-681a4e9d-0639-4cde-a0a7-48545ccd14ea.png)
 
 
 
